@@ -6,10 +6,15 @@ Machine learning course homework at SPbAU 7th term
 
 ### Prerequisites
 
-* **python>=3.6.2** with **pip**
-* **make** to work with [Makefile](Makefile)
-* **bash**, **gunzip** to run data downloading scripts
+* **python>=3.6.2** + **pip**
+* **make** for [Makefile](Makefile)
+* **bash**, **gunzip** for data downloading scripts
 
 ### Dependensies
 
-`pip install -r requirements.txt`
+`make deps`
+
+## Usage
+
+Run `make help` for help.  
+See patricular task* forlder for more info.
